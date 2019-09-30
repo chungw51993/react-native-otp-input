@@ -182,6 +182,7 @@ export default class OTPInputView extends Component {
                     textContentType= {isAutoFillSupported ? "oneTimeCode" : "none"}
                     key={index}
                     selectionColor="#00000000"
+                    caretHidden
                 />
             </View>
         )
